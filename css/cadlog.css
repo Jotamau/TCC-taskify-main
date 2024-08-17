@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+}
+
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+background: #23232e;
+height: 8vh;
+box-shadow: 1px 1px 5px;
+}
+
+.logo {
+font-size: 24px;
+text-transform: uppercase;
+letter-spacing: 4px;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+transition: 0.3s;
+}
+
+main {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.container {
+background: #23232e;
+max-width: 70vh; max-height: 92vh;
+min-height: 100px; min-width: 40vh;
+padding: 2rem;
+box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+border-radius: 8px;
+margin-top: 5rem;
+}
+
+main h2 {
+margin-bottom: 2rem;
+position: relative;
+color: #fff;
+text-align: center;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+.input-field {
+position: relative;
+display: flex;
+flex-direction: column;
+
+}
+
+form .input-field:first-child {
+margin-bottom: 1.5rem;
+}
+
+.input-field input {
+outline: none;
+font-size: 0.9rem;
+border-radius: 7px;
+padding: 5px;
+border: 1px solid #23232e;
+margin-top: 1rem;
+}
+
+.input-field input::placeholder {
+color: #23232e;
+}
+
+form input[type="submit"] {
+margin-top: 2rem;
+padding: 0.4rem;
+background: #fff;
+color: #23232e;
+font-size: 0.9rem;
+cursor: pointer;
+border-radius: 7px;
+transition: all 0.3s ease;
+border: #23232e 1px solid;
+}
+
+form input[type="submit"]:hover {
+color: #fff;
+background: #23232e;
+border: 1px solid #fff;
+}
+
+.altent {
+display: flex;
+flex-direction: column;
+margin-top: 2rem;
+}
+
+.altent span {
+color: #fff;
+font-size: 0.8rem;
+text-align: center;
+}
+
+.altent .social-field a i {
+margin: 0.5rem;
+width: 15px;
+}
+
+.altent .social-fields {
+margin-top: 1rem;
+padding: 0.4em;
+font-size: 0.85rem;
+width: 100%;
+}
+
+.altent .social-fields a {
+text-decoration: none;
+color: #23232e;
+
+}
+
+.altent .social-field.facebook {
+background: #fff;
+border: #23232e 1px solid;
+border-radius: 7px;
+transition: all 0.3s ease;
+
+}
+
+.altent .social-field.google {
+background: #fff;
+border: #23232e 1px solid;
+border-radius: 7px;
+transition: all 0.3s ease;
+
+}
+
+.ponte {
+margin-top: 1rem;
+text-align: center;
+}
+
+.ponte a {
+text-decoration: none;
+color: #fff;
+font-size: 0.85rem;
+}
+
+footer {
+height: 5rem;
+}

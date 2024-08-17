@@ -1,0 +1,169 @@
+/* ☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷ INFO contato ☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷ */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #23232e;
+    height: 8vh;
+    box-shadow: 1px 1px 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background: #23232e;
+    max-width: 1000px; max-height: 800px;
+    min-height: 30vh; min-width: 30vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.container h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.container label {
+    color: #fff;
+}
+
+.container form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.notice {
+    margin-top: 2rem;
+    text-align: center;
+
+}
+
+.notice span {
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+form label {
+    margin-bottom: 0.50rem;
+    font-size: 1rem;
+}
+
+form textarea {
+    outline: none;
+    max-width: 800px; max-height: 300px;
+    min-width: 30vh; min-height: 18vh;
+    border-radius: 7px;
+    border: 0;
+    padding: 0.5rem;
+
+}
+
+form input[type="submit"] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background: #fff;
+    color: #23232e;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.3s ease;
+    border: #23232e 1px solid;
+}
+  
+  form input[type="submit"]:hover {
+    color: #fff;
+    background: #23232e;
+    border: 1px solid #fff;
+}
+
+.thx {
+    margin-top: 3rem;
+    align-self: center;
+}
+
+.thx span {
+    color: #fff;
+}
+
+.btn {
+    margin-top: 4rem;
+    align-self: center;
+}
+
+.btn button {
+    width: 15rem;
+    padding: 0.4rem;
+    border-radius: 7px;
+    border: #23232e;
+    outline: none;
+    color: #23232e;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: #23232e;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+
+
+
+/* ☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷ INFO sobre ☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷☷ */
+
+
+
+.container-sobre {   
+    max-width: 70vh; max-height: 80vh;
+    min-height: 60vh; min-width: 20vh;
+    padding: 1rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: left;
+    overflow: auto;
+}
+
+.container-sobre dt {
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+.container-sobre dd {
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+}
+
